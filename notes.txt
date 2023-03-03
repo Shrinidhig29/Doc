@@ -1,0 +1,1 @@
+https://zerotobyte.com/django-multiple-databases-setup/

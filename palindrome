@@ -1,0 +1,84 @@
+# by string split method
+
+def palindrome(s):
+    output = s[::-1]
+    print(output)
+    if s==output:
+        print("it is the palindrome")
+    else:
+        print("it is not a palindrome")
+        
+s="nitin"
+palindrome(s)
+
+# by using indexing or using for loop
+
+def palindrom2(s):
+    n = len(s)
+    for i in range(n):
+        if s[i] != s[n-i-1]:
+            return False
+    return True
+
+s = "12321"
+print(palindrom2(s))
+
+# by using the inbuilt function
+
+def palindrome3(s):
+    output =  ''.join(reversed(s))
+    if output==s:
+        print("palindrome")
+    else:
+        print("not a palindrome")
+        
+s = "101"        
+print(palindrome3(s))
+
+# by using while loop
+
+def palindrome4(s):
+    n = len(s)
+    first = 0
+    last = n-1
+    while first<last:
+        if s[first] == s[last] :
+            first +=1
+            last -=1
+        else:    
+            return "it is not a palindrome4"
+        return "it is a palindrome4"
+    
+s = "nitin"
+print(palindrome4(s))
+
+# for number split
+
+def palindrome5(s):
+    s = str(s)
+    rev = s[::-1]
+    if rev == s:
+        print("palindrome5")
+    else:
+        print("not palindrome5")
+        
+s = 12321444
+print(palindrome5(s))
+    
+    
+# for number using while loop
+
+def palindrome6(n):
+    temp = n
+    rev_n = 0
+    while (temp >0):
+        digit = temp % 10
+        rev_n = rev_n * 10 + digit
+        temp =temp // 10 
+    if n == rev_n:
+        return True
+    else:
+        return False
+            
+s = 101
+print(palindrome6(s))

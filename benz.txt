@@ -1,0 +1,16 @@
+image data, log data 
+extracting methods
+data cleaning - analystical software packages
+data quality assessments, statistical testing t
+eda - ds toolkits and statistical packages
+visulaize data - information/insights - discover trends - improve KPI(key performance indicator)
+cordinate - agile team (data engineering algorithn dvelopemt, software developemet, - kpi reports)DL with related chages in traing and meta data
+
+spark
+data science industry level exp 
+masters - maths. ml ee cs 
+data mining - large data, extracting insights, building prediction
+statistical libraries
+sql, python-opencv, ml and stats open(numpy, pandas, scikit learn, stats tool)
+DL (pyorch, tensorflow)
+deploy - predictive/prescriptive ds from embedded sensor data streams (cameras, iot, wearables)

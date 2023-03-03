@@ -1,0 +1,24 @@
+# USING DICT FUNCTION
+
+def least_char_occ(s):
+    ch = {}
+    for i in s:
+        if i in ch:
+            ch[i] = ch[i] + 1
+        else:
+            ch[i] = 1
+    print(ch)
+    result = min(ch, key = ch.get)
+    print(result)
+    
+s = "wwesfcffffghhg"
+least_char_occ(s)
+
+# # USING INBUILT FUNCTIONS COUNTER 
+
+# from collections import Counter
+# s = "qwweedrffffffffffsdfcsdc"
+# ch = Counter(s)
+# print(ch)
+# Result = min(ch, key=ch.get)
+# print(Result)
